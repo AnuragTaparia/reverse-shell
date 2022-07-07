@@ -10,7 +10,7 @@ def socket_create():
         global host 
         global port 
         global soc
-        host = '192.168.56.1'
+        host = 'Write_Your_IP'
         port = 9999
         soc = socket.socket()
     except socket.error as err:
